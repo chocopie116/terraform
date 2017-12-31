@@ -22,7 +22,5 @@ terraform/remote_config: .terraform
 		-force-copy \
 		-get=true \
 		-input=false
-
-
 clean:
 	rm -rf .terraform
